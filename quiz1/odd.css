@@ -1,0 +1,44 @@
+.up{
+    position: relative;
+    display: inline-block;
+}
+.text{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    transform: traslate(-50%,-50%);
+    padding: 10px;
+}
+
+
+.elements{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-left: 50px;
+    background-color: blanchedalmond;
+}
+
+.flowers{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+.freshFlowering{
+    top: 10%;
+    left: 0%;
+    transform: traslate(-40%,-50%);
+    padding: 10px;    
+
+}
+.button{
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 20px;
+    color:rgb(32, 30, 30);
+}
